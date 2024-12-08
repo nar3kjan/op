@@ -130,11 +130,9 @@ spec:
           values: ["on-demand", "spot"]
         - key: "node.kubernetes.io/instance-type"
           operator: In
-          values: ["g5g.2xlarge", "g4dn.2xlarge", "g5.2xlarge"]
+          values: ["p3.8xlarge"]
       nodeClassRef:
         name: default
-      kubelet:
-        maxPods: 110
 ```
 
 
