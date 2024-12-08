@@ -114,7 +114,7 @@ For auto-scaling with Karpenter while using GPU slicing:
 Follow Steps for installing Nvidia plugin from the previous section.
 
 ### Configure Node Pool in Karpenter
-Update or create your NodePool configuration with maximum pods and instance details:
+Update or create your NodePool configuration with instance details:
 
 ```yaml
 apiVersion: karpenter.sh/v1beta1
